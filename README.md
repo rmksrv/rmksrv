@@ -38,3 +38,4 @@ In winter, I also like snowboarding.
 ## 📊 Statistics
 
 ![rmksrv GitHub stats](https://github-readme-stats.vercel.app/api?username=rmksrv&show_icons=true&theme=tokyonight)
+![rmksrv Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rmksrv&hide=css,scss&langs_count=7&theme=tokyonight&layout=compact)
