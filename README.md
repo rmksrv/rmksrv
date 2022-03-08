@@ -1,5 +1,4 @@
 # 👋🏻 Hi, folks!
-***
 
 My name is Roman, I'm 24 y.o. 
 I graduated from Lobachevsky University with B. A. in Mathematics.
@@ -12,7 +11,6 @@ In winter, I also like snowboarding.
 
 
 ## 💻 Tech Stack
-***
 
 - **✅ Good knowledge:** ```Python 3, pytest```
 - **🏋🏻Better than fine, but still not good enough:** ```Django, beautifulsoup, aiogramm```
@@ -22,7 +20,6 @@ In winter, I also like snowboarding.
 
 
 ## 🏢 Work experience:
-***
 
 - ![Intel logo](http://www.google.com/s2/favicons?domain=intel.ru&sz=16) **Intel** _(October 2018 - July 2021)_: 
   QA Engineer, Product Validation Team
@@ -33,13 +30,11 @@ In winter, I also like snowboarding.
 
 
 ## 📩 Contacts
-***
 
 - [Telegram](https://t.me/itsuken)
 - [Email](mailto://rmksrv@outlook.com)
 
 
 ## 📩 Statistics
-***
 
 ![rmksrv GitHub stats](https://github-readme-stats.vercel.app/api?username=rmksrv&show_icons=true&theme=tokyonight)
