@@ -35,6 +35,6 @@ In winter, I also like snowboarding.
 - [Email](mailto://rmksrv@outlook.com)
 
 
-## 📩 Statistics
+## 📊 Statistics
 
 ![rmksrv GitHub stats](https://github-readme-stats.vercel.app/api?username=rmksrv&show_icons=true&theme=tokyonight)
