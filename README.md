@@ -37,3 +37,9 @@ In winter, I also like snowboarding.
 
 - [Telegram](https://t.me/itsuken)
 - [Email](mailto://rmksrv@outlook.com)
+
+
+## 📩 Statistics
+***
+
+![rmksrv GitHub stats](https://github-readme-stats.vercel.app/api?username=rmksrv&show_icons=true&theme=tokyonight)
