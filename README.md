@@ -1,16 +1,39 @@
-### Hi there 👋
+# 👋🏻 Hi, folks!
+***
 
-<!--
-**rmksrv/rmksrv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My name is Roman, I'm 24 y.o. 
+I graduated from Lobachevsky University with B. A. in Mathematics.
+I'm interested in programming since childhood.
+Today I work as a SQA Automation Engineer, however I wish to become a backend developer.
 
-Here are some ideas to get you started:
+I spend my free time with my own pet projects and technical literature.
+Sometimes, I play video games.
+In winter, I also like snowboarding.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## 💻 Tech Stack
+***
+
+- **✅ Good knowledge:** ```Python 3, pytest```
+- **🏋🏻Better than fine, but still not good enough:** ```Django, beautifulsoup, aiogramm```
+- **👌🏻Fine knowledge:** ```Java, SQL, Postgres, MySQL, Redis, Docker, GitHub Actions, python-behave, Qt, Heroku```
+- **👨🏻‍🦽Used once/twice:**  ```fastapi, Flask, C#, Unity3D, Golang, Spring Boot, Amazon Lightsail```
+- **💀Wish to unsee:** ```C++```
+
+
+## 🏢 Work experience:
+***
+
+- ![Intel logo](http://www.google.com/s2/favicons?domain=intel.ru&sz=16) **Intel** _(October 2018 - July 2021)_: 
+  QA Engineer, Product Validation Team
+- ![OZON logo](http://www.google.com/s2/favicons?domain=ozon.ru&sz=16) **OZON Tech** _(August 2021 - December 2021)_:
+  QA Engineer, WMS Team 1
+- ![Auriga logo](http://www.google.com/s2/favicons?domain=auriga.com&sz=16) **Auriga** _(January 2022 - current)_:
+  Software Developer Engineer in Test
+
+
+## 📩 Contacts
+***
+
+- [Telegram](https://t.me/itsuken)
+- [Email](mailto://rmksrv@outlook.com)
