@@ -1,0 +1,13 @@
+image: node:16
+
+cache:
+  paths:
+    - node_modules/
+
+pages:
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - public
