@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-security-policy" content=""><title>Documentation</title><noscript data-svelte="svelte-l1mjqp"><style data-svelte="svelte-l1mjqp">.loading-animation{display:none}</style></noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous" data-svelte="svelte-bnfb8z"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous" data-svelte="svelte-bnfb8z"><meta name="description" content="Refer to this post for making changes to your SvelteKit site." data-svelte="svelte-1hmwm8u"><script src="https://unpkg.com/mathlive/dist/mathlive.min.js" data-svelte="svelte-1hmwm8u"></script>
+	<link rel="stylesheet" href="/_app/assets/vendor-189798bb.css">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-f7ac6a03.css">
+	<link rel="modulepreload" href="/_app/start-6c02066e.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-3129e329.js">
+	<link rel="modulepreload" href="/_app/chunks/preload-helper-e4860ae8.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-6ba90297.js">
+	<link rel="modulepreload" href="/_app/chunks/settings-e23a3c89.js">
+	<link rel="modulepreload" href="/_app/chunks/stores-40c4df82.js">
+	<link rel="modulepreload" href="/_app/chunks/FaIcon-49f777b3.js">
+	<link rel="modulepreload" href="/_app/pages/blog/documentation.md-64a4c209.js">
+	<link rel="modulepreload" href="/_app/pages/blog/Layout.svelte-bab2771f.js">
+	<link rel="modulepreload" href="/_app/chunks/Disqus-c0e7defd.js">
+	<link rel="modulepreload" href="/_app/chunks/Cta-fc675088.js">
+  </head>
+  <body id="figs" class="py-0 md:py-8 md:py-12 bg-gray-100">
+    
+
+
+<div class="loading-animation svelte-1k19egt"><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="64px" height="64px" viewBox="0 0 128 128" xml:space="preserve"><g><path class="fill-current text-blue-500 svelte-1k19egt" d="M61.5.25h5a25.7 25.7 0 0 1 5.2 8.95A26.25 26.25 0 0 1 73 19.97l-4.98.1A23.3 23.3 0 0 0 67 10.2 32.2 32.2 0 0 0 61.5.27zm16.6 1.53l4.8 1.3a25.7 25.7 0 0 1 2.74 10A26.25 26.25 0 0 1 84.1 23.8l-4.83-1.2a23.3 23.3 0 0 0 1.54-9.8 32.2 32.2 0 0 0-2.7-11zm15.62 5.76l4.3 2.5a25.7 25.7 0 0 1 .06 10.37 26.25 26.25 0 0 1-4.25 10L89.46 28a23.3 23.3 0 0 0 4.02-9.08 32.2 32.2 0 0 0 .24-11.35zm13.6 9.62l3.52 3.52a25.7 25.7 0 0 1-2.64 10.04 26.24 26.24 0 0 1-6.68 8.52l-3.6-3.44a23.28 23.28 0 0 0 6.23-7.72 32.2 32.2 0 0 0 3.17-10.92zm10.65 12.8l2.5 4.32a25.7 25.7 0 0 1-5.16 9 26.24 26.24 0 0 1-8.6 6.5l-2.6-4.25a23.3 23.3 0 0 0 8-5.84 32.2 32.2 0 0 0 5.9-9.8zm6.96 15.13l1.3 4.8a25.7 25.7 0 0 1-7.3 7.3 26.25 26.25 0 0 1-10.06 4l-1.4-4.8a23.3 23.3 0 0 0 9.26-3.6 32.18 32.18 0 0 0 8.2-7.9zm2.82 16.4v5a25.7 25.7 0 0 1-8.96 5.2A26.25 26.25 0 0 1 108 73l-.1-4.97a23.28 23.28 0 0 0 9.9-1.03 32.2 32.2 0 0 0 9.95-5.5zm-1.53 16.6l-1.3 4.8a25.7 25.7 0 0 1-10 2.7A26.24 26.24 0 0 1 104.2 84l1.2-4.84a23.28 23.28 0 0 0 9.8 1.54 32.18 32.18 0 0 0 11.02-2.7zm-5.76 15.6l-2.5 4.3a25.7 25.7 0 0 1-10.37 0 26.24 26.24 0 0 1-10-4.3l2.4-4.4a23.28 23.28 0 0 0 9 4 32.2 32.2 0 0 0 11.3.23zm-9.62 13.6l-3.52 3.5a25.7 25.7 0 0 1-10.04-2.7 26.24 26.24 0 0 1-8.52-6.7l3.44-3.6a23.28 23.28 0 0 0 7.72 6.2 32.2 32.2 0 0 0 10.92 3.13zm-12.8 10.6l-4.32 2.5a25.7 25.7 0 0 1-9-5.2 26.24 26.24 0 0 1-6.5-8.7l4.25-2.6a23.3 23.3 0 0 0 5.84 8 32.2 32.2 0 0 0 9.8 5.9zm-15.14 7l-4.8 1.3a25.7 25.7 0 0 1-7.38-7.3 26.24 26.24 0 0 1-4.04-10.1l4.78-1.4a23.28 23.28 0 0 0 3.57 9.2 32.18 32.18 0 0 0 7.88 8.2zm-33 1.3l-4.8-1.3a25.7 25.7 0 0 1-2.74-10 26.26 26.26 0 0 1 1.53-10.8l4.8 1.2a23.3 23.3 0 0 0-1.6 9.8 32.2 32.2 0 0 0 2.7 11zm-15.62-5.8l-4.3-2.5a25.7 25.7 0 0 1-.06-10.4 26.26 26.26 0 0 1 4.25-10l4.37 2.4a23.3 23.3 0 0 0-4.02 9.1 32.2 32.2 0 0 0-.24 11.3zm-13.6-9.6l-3.52-3.5a25.7 25.7 0 0 1 2.64-10 26.25 26.25 0 0 1 6.68-8.5l3.6 3.4a23.3 23.3 0 0 0-6.23 7.7 32.2 32.2 0 0 0-3.17 10.9zM10.04 98l-2.5-4.3a25.7 25.7 0 0 1 5.15-9 26.25 26.25 0 0 1 8.6-6.5l2.6 4.24a23.3 23.3 0 0 0-8 5.85A32.2 32.2 0 0 0 10 98zM3.07 82.9l-1.3-4.83a25.7 25.7 0 0 1 7.3-7.37 26.25 26.25 0 0 1 10.06-4.03l1.4 4.78a23.3 23.3 0 0 0-9.26 3.57 32.2 32.2 0 0 0-8.2 7.87zM.25 66.45V61.5a25.7 25.7 0 0 1 8.96-5.24 26.24 26.24 0 0 1 10.8-1.3l.1 4.98A23.28 23.28 0 0 0 10.2 61a32.2 32.2 0 0 0-9.94 5.47zM1.78 49.9l1.3-4.83a25.7 25.7 0 0 1 10-2.73 26.24 26.24 0 0 1 10.72 1.53l-1.2 4.84a23.28 23.28 0 0 0-9.8-1.5 32.18 32.18 0 0 0-11 2.7zm5.76-15.64l2.5-4.32a25.7 25.7 0 0 1 10.37-.04 26.24 26.24 0 0 1 10 4.25L28 38.52a23.28 23.28 0 0 0-9.08-4.02 32.18 32.18 0 0 0-11.35-.24zm9.62-13.6l3.52-3.52a25.7 25.7 0 0 1 10.04 2.64 26.25 26.25 0 0 1 8.52 6.68l-3.44 3.6a23.3 23.3 0 0 0-7.72-6.23 32.18 32.18 0 0 0-10.92-3.17zM29.96 10l4.32-2.48a25.7 25.7 0 0 1 9 5.15 26.25 26.25 0 0 1 6.5 8.66l-4.25 2.58a23.3 23.3 0 0 0-5.84-8 32.2 32.2 0 0 0-9.8-5.9zM45.1 3.05l4.8-1.3a25.7 25.7 0 0 1 7.38 7.3 26.25 26.25 0 0 1 4.04 10.07l-4.78 1.4a23.3 23.3 0 0 0-3.57-9.26 32.2 32.2 0 0 0-7.88-8.2zm21.4 124.7h-5a25.7 25.7 0 0 1-5.22-8.96 26.26 26.26 0 0 1-1.3-10.8l4.98-.1a23.3 23.3 0 0 0 1.04 9.9 32.2 32.2 0 0 0 5.5 9.9z"></path><animateTransform attributeName="transform" type="rotate" from="0 64 64" to="15 64 64" dur="450ms" repeatCount="indefinite"></animateTransform></g></svg></div>
+
+
+<div class="container"><div class="wrapper px-0 md:px-2 md:px-0"><div class="grid md:grid-cols-12 gap-0 md:gap-8"><aside class="sidebar md:sticky top-6 self-start col-span-12 md:col-span-4 shadow-lg md:rounded-lg bg-blue-500 p-4"><a href="/"><div class="image grid justify-items-center py-3 md:py-5 border-b"><img width="85" height="85" loading="lazy" class="lazyload rounded-full shadow border-4 border-white" src="/images/profile.jpg" alt="John Owens"></div></a>
+  <div class="description grid justify-items-center py-3 md:py-5"><a href="/"><h1 class="text-2xl font-bold text-white">John Owens</h1></a>
+
+    <div class="text-white mb-2 pt-1 h-5 font-semibold italic"><div class="typewriter-container svelte-ys2are cursor" style="--cursor-color: black"><span>Teacher</span><span>Freelancer</span><span>Blogger</span><span>Programmer</span></div></div>
+    <div class="social w-full mt-3 md:mt-6"><ul class="flex justify-around mb-3 md:mb-5"><li><a href="#" title="LinkedIn"><i class="fab fa-linkedin transform duration-200 text-3xl md:text-2xl text-white hover:text-gray-300"></i></a>
+          </li><li><a href="#" title="Facebook"><i class="fab fa-facebook-square transform duration-200 text-3xl md:text-2xl text-white hover:text-gray-300"></i></a>
+          </li><li><a href="#" title="Twitter"><i class="fab fa-twitter-square transform duration-200 text-3xl md:text-2xl text-white hover:text-gray-300"></i></a>
+          </li><li><a href="#" title="Github"><i class="fab fa-github-square transform duration-200 text-3xl md:text-2xl text-white hover:text-gray-300"></i></a>
+          </li><li><a href="#" title="StackOverflow"><i class="fab fa-stack-overflow transform duration-200 text-3xl md:text-2xl text-white hover:text-gray-300"></i></a>
+          </li></ul></div>
+    <div class="downloads"><ul class="flex justify-around text-white"><li><a sveltekit:prefetch href="/docs/resume.pdf" class="text-sm font-semibold hover:underline" download="resume">Download CV</a></li>
+          <li class="font-light px-1">|</li><li><a sveltekit:prefetch href="/contact/" class="text-sm font-semibold hover:underline">Contact me</a></li>
+          </ul></div></div></aside>
+      <main class="col-span-12 md:col-span-8 shadow-lg md:rounded-lg bg-white p-4 md:p-8 overflow-hidden"><div class="grid grid-cols-1 gap-6 place-items-center mb-3"><img width="500" height="300" src="https://picsum.photos/id/180/500/300" alt="Documentation" loading="lazy" class="lazyload w-full object-cover object-center rounded">
+  <h1 class="font-bold text-2xl text-center">Documentation</h1>
+  <p class="text-center text-xl">Refer to this post for making changes to your SvelteKit site.</p></div>
+
+<article class="post"><h2>Features</h2>
+<h3>Tailwind</h3>
+<p>The theme is built using TailwindCSS. Customizing the theme to your needs can be done without touching any CSS file.
+It also has a <strong>Purge</strong> on build. This way you will be using only the styles that you need.</p>
+<h3>Search Engine Optimized</h3>
+<p>The theme is optimized for search engines. You can just start adding content and it will be ready to be indexed by search engines.</p>
+<h3>Lightning Speed</h3>
+<p>Svelte is superfast. You can see that in action here. Once the site is loaded, pages and posts load instantly like a native app.</p>
+<p><img src="/images/screenshots/pagespeed.png" alt="Pagespeed"></p>
+<h3>Super Performance, SEO, and Accessibility</h3>
+<p><img src="/images/screenshots/lighthouse-test.png" alt="Lighthouse Test"></p>
+<h3>Math</h3>
+<p>Display beautiful math equations using mathjax. This feature can be disabled for performance.</p>
+
+
+<!-- HTML_TAG_START --><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>V</mi><mo>=</mo><mi>π</mi><msup><mtext> m</mtext><mn>3</mn></msup></mrow><annotation encoding="application/x-tex">V=\pi\textrm{ m}^3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8641em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mord"><span class="mord text"><span class="mord textrm"> m</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span><!-- HTML_TAG_END -->
+<br>
+
+
+<!-- HTML_TAG_START --><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mfrac><mrow><mo>−</mo><mi>b</mi><mo>±</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">x=-\frac{-b\pm\sqrt{b^2-4ac}}{2a}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.2764em;vertical-align:-0.686em;"></span><span class="mord">−</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.5904em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mord mathnormal">a</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">−</span><span class="mord mathnormal">b</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">±</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9134em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">4</span><span class="mord mathnormal">a</span><span class="mord mathnormal">c</span></span></span><span style="top:-2.8734em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg xmlns="http://www.w3.org/2000/svg" width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702
+c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14
+c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54
+c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10
+s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429
+c69,-144,104.5,-217.7,106.5,-221
+l0 -0
+c5.3,-9.3,12,-14,20,-14
+H400000v40H845.2724
+s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
+c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
+M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.1266em;"><span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span><!-- HTML_TAG_END -->
+<h3>Comments</h3>
+<p>The theme includes integrated Disqus comments. This can be disabled if needed.</p>
+<h3>Installation</h3>
+<p>Once you extract the theme zip file, run the following commands.</p>
+<ul><li><p><code>npm install</code></p></li>
+<li><p><code>npm run dev</code> for testing the site locally.</p></li>
+<li><p><code>npm run build</code></p></li></ul>
+<p>This will build the HTML site in <em>/public</em> directory. This can be hosted anywhere. Either on conventional hosting or on a static hosting service.</p>
+<p>You easily host it as pages using GitHub, Gitlab etc.</p>
+<p>In most cases, it is drag-drop upload.</p>
+<h3>Usage</h3>
+<p>The theme uses a centralized data from where you can make almost all the changes to the entire site.</p>
+<p>The files that are responsible for the information shown on the website reside in <em>src/components</em> directory as shown below.</p>
+<pre class="language-plaintext"><!-- HTML_TAG_START --><code class="language-plaintext">├── components
+| ├── About.svelte
+| └── Blog.svelte
+| └── Skills.svelte
+| └── Works.svelte
+| └── Testimonials.svelte
+.
+.</code><!-- HTML_TAG_END --></pre>
+<h3>Color schemes</h3>
+<p>You can choose from more than 50 color schemes from <a href="https://tailwindcss.com/docs/customizing-colors" rel="nofollow">tailwind colors</a>. You can change the color scheme in <em>src/lib/settings.js</em> as shown below.</p>
+<pre class="language-yml"><!-- HTML_TAG_START --><code class="language-yml"><span class="token key atrule">color-scheme</span><span class="token punctuation">:</span> blue<span class="token punctuation">-</span><span class="token number">500</span></code><!-- HTML_TAG_END --></pre>
+<h3>Contact form</h3>
+<p>The theme provides a built-in contact form. You will have to add one line in <em>src/lib/settings.js</em> to make it work.</p>
+<p>Get an account from formspree.io. Go to integration. Copy the endpoint which would look like this</p>
+<p><code>https://formspree.io/f/mdowsdwy</code> and put it in <em>src/lib/settings.js</em> as shown below</p>
+<pre class="language-yml"><!-- HTML_TAG_START --><code class="language-yml"><span class="token key atrule">formspreeAction</span><span class="token punctuation">:</span> <span class="token string">"https://formspree.io/f/mdowwywy"</span><span class="token punctuation">,</span></code><!-- HTML_TAG_END --></pre>
+<h3>Skills</h3>
+<p>Skills can be updated through a file in <em>src/lib/settings.js</em>. Here is how it would look like.</p>
+<pre class="language-json"><!-- HTML_TAG_START --><code class="language-json"><span class="token punctuation">&#123;</span>
+    name<span class="token operator">:</span> <span class="token string">"HTML"</span><span class="token punctuation">,</span>
+    skillLevel<span class="token operator">:</span> <span class="token number">90</span><span class="token punctuation">,</span>
+    color<span class="token operator">:</span> <span class="token string">"text-pink-400"</span><span class="token punctuation">,</span>
+  <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">&#123;</span>
+    name<span class="token operator">:</span> <span class="token string">"CSS"</span><span class="token punctuation">,</span>
+    skillLevel<span class="token operator">:</span> <span class="token number">80</span><span class="token punctuation">,</span>
+    color<span class="token operator">:</span> <span class="token string">"text-green-400"</span><span class="token punctuation">,</span>
+  <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">&#123;</span>
+    name<span class="token operator">:</span> <span class="token string">"JavaScript"</span><span class="token punctuation">,</span>
+    skillLevel<span class="token operator">:</span> <span class="token number">60</span><span class="token punctuation">,</span>
+    color<span class="token operator">:</span> <span class="token string">"text-yellow-400"</span><span class="token punctuation">,</span>
+  <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">&#123;</span>
+    name<span class="token operator">:</span> <span class="token string">"Python"</span><span class="token punctuation">,</span>
+    skillLevel<span class="token operator">:</span> <span class="token number">70</span><span class="token punctuation">,</span>
+    color<span class="token operator">:</span> <span class="token string">"text-indigo-400"</span><span class="token punctuation">,</span>
+  <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">&#123;</span>
+    name<span class="token operator">:</span> <span class="token string">"Photoshop"</span><span class="token punctuation">,</span>
+    skillLevel<span class="token operator">:</span> <span class="token number">70</span><span class="token punctuation">,</span>
+    color<span class="token operator">:</span> <span class="token string">"text-blue-400"</span><span class="token punctuation">,</span>
+  <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">&#123;</span>
+    name<span class="token operator">:</span> <span class="token string">"Svelte"</span><span class="token punctuation">,</span>
+    skillLevel<span class="token operator">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    color<span class="token operator">:</span> <span class="token string">"text-red-400"</span><span class="token punctuation">,</span>
+  <span class="token punctuation">&#125;</span><span class="token punctuation">,</span></code><!-- HTML_TAG_END --></pre>
+<p>You can choose any tailwind class.</p>
+<blockquote><p>All sections in the website have a variable in <em>src/lib/settings.js</em> directory which can be updated.</p></blockquote>
+<h3>Works</h3>
+<p>You can add new projects or works in <em>/src/routes/works/</em> directory. You can have markdown files in here just like blog posts.
+The index of all works/projects can be found at <code>/works/</code>.</p>
+<h3>Blog Posts</h3>
+<p>You can add blog posts in <em>/src/routes/blog/</em> directory. The index of all the blog posts can be found at <code>/blog/</code>.</p>
+<h3>Screenshots</h3>
+<p><img src="/images/screenshots/blue.png" alt="Figs Svelte kit Theme"></p>
+<p><img src="/images/screenshots/indigo.png" alt="Figs Svelte kit Theme"></p>
+<p><img src="/images/screenshots/gray.png" alt="Figs Svelte kit Theme"></p>
+<p><img src="/images/screenshots/green.png" alt="Figs Svelte kit Theme"></p>
+<p><img src="/images/screenshots/yellow.png" alt="Figs Svelte kit Theme"></p>
+<p><img src="/images/screenshots/red.png" alt="Figs Svelte kit Theme"></p>
+<div class="cta"><h2 class="font-bold text-xl pb-3 mb-3 border-b" data-sal="slide-up" data-sal-duration="800">Buy
+      <span class="text-blue-500">Figs Sveltekit Theme</span>
+      <span><img width="25" height="25" loading="lazy" class="lazyload inline-block ml-2 w-6" src="/images/figs-180.png" alt="Figs Sveltekit Theme"></span></h2>
+    <div class="grid grid-cols-1 gap-4 py-3 items-center" data-sal="fade" data-sal-duration="800"><ul><li class="italic text-gray-600"><i class="fas fa-check-circle text-green-500 mr-2"></i>Server Side Rendered by default.
+          </li><li class="italic text-gray-600"><i class="fas fa-check-circle text-green-500 mr-2"></i>SEO optimized.
+          </li><li class="italic text-gray-600"><i class="fas fa-check-circle text-green-500 mr-2"></i>Blazing Fast.
+          </li><li class="italic text-gray-600"><i class="fas fa-check-circle text-green-500 mr-2"></i>Easy to customize.
+          </li><li class="italic text-gray-600"><i class="fas fa-check-circle text-green-500 mr-2"></i>3 months support.
+          </li><li class="italic text-gray-600"><i class="fas fa-check-circle text-green-500 mr-2"></i>Get assistance with reported bugs and issues.
+          </li><li class="italic text-gray-600"><i class="fas fa-check-circle text-green-500 mr-2"></i>Help with included 3rd party assets.
+          </li></ul>
+      <div class="my-2"><button class="text-white rounded px-4 py-1 bg-green-500">Big layout</button></div>
+      <div class="max-w-xs"><a class="block mb-4 underline text-blue-500 hover:text-blue-600" href="/blog/documentation/">Features</a>
+        <form id="rzp"></form></div></div></div></article>
+<div class="border-t py-5"><button class="text-white rounded px-4 py-1 bg-blue-500">Show/Add Comments</button></div>
+
+</main>
+      </div></div></div>
+
+
+
+
+		<script type="module" data-hydrate="16p6mo3">
+		import { start } from "/_app/start-6c02066e.js";
+		start({
+			target: document.querySelector('[data-hydrate="16p6mo3"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-6ba90297.js"),
+						import("/_app/pages/blog/documentation.md-64a4c209.js")
+				],
+				params: {}
+			}
+		});
+	</script>
+  </body>
+</html>
