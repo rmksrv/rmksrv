@@ -22,11 +22,13 @@ In winter, I also like snowboarding.
 ## 🏢 Work experience:
 
 - ![Intel logo](http://www.google.com/s2/favicons?domain=intel.ru&sz=16) **Intel** _(October 2018 - July 2021)_: 
-  QA Engineer, Product Validation Team
+  Software Validation Engineer, Product Validation Team
 - ![OZON logo](http://www.google.com/s2/favicons?domain=ozon.ru&sz=16) **OZON Tech** _(August 2021 - December 2021)_:
-  QA Engineer, WMS Team 1
-- ![Auriga logo](http://www.google.com/s2/favicons?domain=auriga.com&sz=16) **Auriga** _(January 2022 - current)_:
-  Software Developer Engineer in Test
+  Test Automation Engineer, WMS Team 1
+- ![Auriga logo](http://www.google.com/s2/favicons?domain=auriga.com&sz=16) **Auriga** _(January 2022 - September 2022)_:
+  Software Development Engineer in Test
+- ![Auriga logo](http://www.google.com/s2/favicons?domain=auriga.com&sz=16) **Auriga** _(September 2022 - current)_:
+  Software Development Engineer
 
 
 ## 📩 Contacts
