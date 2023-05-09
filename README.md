@@ -1,10 +1,8 @@
 # 👋🏻 Hi, folks!
 
-My name is Roman, I'm 24 y.o. 
+My name is Roman, I'm 25 y.o. 
 I graduated from Lobachevsky University with B. A. in Mathematics.
 I'm interested in programming since childhood.
-Today I work as a SQA Automation Engineer, however I wish to become a backend developer.
-
 I spend my free time with my own pet projects and technical literature.
 Sometimes, I play video games.
 In winter, I also like snowboarding.
@@ -12,7 +10,8 @@ In winter, I also like snowboarding.
 
 ## 💻 Tech Stack
 
-![](https://img.icons8.com/color/96/null/python--v1.png) ![](https://img.icons8.com/color/96/null/java-coffee-cup-logo--v1.png) 
+![](https://img.icons8.com/color/96/null/python--v1.png) ![](https://img.icons8.com/color/96/null/java-coffee-cup-logo--v1.png) ![](https://img.icons8.com/color/96/null/mysql-logo.png) ![](https://img.icons8.com/color/96/null/postgreesql.png)
+![](https://img.icons8.com/color/96/null/amazon-web-services.png)  ![](https://img.icons8.com/color/96/null/docker.png) ![](https://img.icons8.com/color/96/null/spring-logo.png) ![](https://img.icons8.com/color/96/null/flask.png)
 
 
 ## 🏢 Work experience:
