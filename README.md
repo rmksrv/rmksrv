@@ -12,7 +12,7 @@ In winter, I also like snowboarding.
 
 ![](https://img.icons8.com/color/96/null/python--v1.png) ![](https://img.icons8.com/color/96/null/java-coffee-cup-logo--v1.png) ![](https://img.icons8.com/color/96/null/mysql-logo.png) ![](https://img.icons8.com/color/96/null/postgreesql.png)
 ![](https://img.icons8.com/color/96/null/amazon-web-services.png)  ![](https://img.icons8.com/color/96/null/docker.png) ![](https://img.icons8.com/color/96/null/spring-logo.png) ![](https://img.icons8.com/color/96/null/flask.png)
-![](https://img.icons8.com/color/96/null/heroku.png) ![](https://fastapi.tiangolo.com/img/icon-white.svg)
+![](https://img.icons8.com/color/96/null/heroku.png) 
 
 
 ## 🏢 Work experience:
