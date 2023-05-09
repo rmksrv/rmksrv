@@ -12,7 +12,7 @@ In winter, I also like snowboarding.
 
 ## 💻 Tech Stack
 
-![](https://img.icons8.com/color/144/null/python--v1.png) ![](https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png) 
+![](https://img.icons8.com/color/96/null/python--v1.png) ![](https://img.icons8.com/color/96/null/java-coffee-cup-logo--v1.png) 
 
 
 ## 🏢 Work experience:
