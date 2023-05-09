@@ -12,11 +12,7 @@ In winter, I also like snowboarding.
 
 ## 💻 Tech Stack
 
-- **✅ Good knowledge:** ```Python 3, pytest```
-- **🏋🏻Better than fine, but still not good enough:** ```Django, beautifulsoup, aiogramm```
-- **👌🏻Fine knowledge:** ```Java, SQL, Postgres, MySQL, Redis, Docker, GitHub Actions, python-behave, Qt, Heroku```
-- **👨🏻‍🦽Used once/twice:**  ```fastapi, Flask, C#, Unity3D, Golang, Spring Boot, Amazon Lightsail```
-- **💀Wish to unsee:** ```C++```
+![](https://icons8.com/icon/12584/python) ![](https://icons8.com/icon/2572/java) 
 
 
 ## 🏢 Work experience:
