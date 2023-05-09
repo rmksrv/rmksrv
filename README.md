@@ -12,7 +12,7 @@ In winter, I also like snowboarding.
 
 ## 💻 Tech Stack
 
-![](https://icons8.com/icon/12584/python) ![](https://icons8.com/icon/2572/java) 
+![](https://img.icons8.com/color/144/null/python--v1.png) ![](https://img.icons8.com/color/144/null/java-coffee-cup-logo--v1.png) 
 
 
 ## 🏢 Work experience:
@@ -37,3 +37,6 @@ In winter, I also like snowboarding.
 
 ![rmksrv GitHub stats](https://github-readme-stats.vercel.app/api?username=rmksrv&show_icons=true&theme=tokyonight)
 ![rmksrv Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rmksrv&hide=css,scss&langs_count=7&theme=tokyonight&layout=compact)
+
+
+_icons provided by [icons8.com](https://icons8.com/)_
